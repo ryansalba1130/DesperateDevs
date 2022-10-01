@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(DefaultTargetFramework)</TargetFramework>
+    <PackageVersion>1.0.0</PackageVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../DesperateDevs.Reflection/src/DesperateDevs.Reflection.csproj" />
+    <ProjectReference Include="../../Sherlog.Formatters/src/Sherlog.Formatters.csproj" />
+    <ProjectReference Include="../../Sherlog/src/Sherlog.csproj" />
+  </ItemGroup>
+
+</Project>
